@@ -1,0 +1,14 @@
+{
+    "engines": [
+        "node >=0.8.0"
+    ],
+    "config": {
+        "blanket": {
+            "pattern": "/error.js",
+            "data-cover-never": "node_modules"
+        },
+        "travis-cov": {
+            "threshold": 80
+        }
+    }
+}
